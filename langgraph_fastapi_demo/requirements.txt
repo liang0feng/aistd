@@ -1,0 +1,10 @@
+# LangGraph + FastAPI demo (verified versions)
+langgraph==0.2.20
+fastapi==0.104.1
+uvicorn==0.24.0
+openai==1.32.0
+langchain-openai==0.1.14
+python-dotenv==1.0.0
+
+# Pin httpx: 0.28+ changes proxies arg, causes Client.__init__ error
+httpx<0.28
